@@ -30,3 +30,22 @@ input
 {
     margin: 0;
 }
+.calculator
+{
+    background-color: #ffbd59;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95dvh;
+    aspect-ratio: 3 / 5;
+    border-radius: 15px;
+}
+@media screen and (max-width: 340px)
+{
+    .calculator
+    {
+        width: 90dvw;
+        height: auto;
+    }
+}
