@@ -5,3 +5,10 @@ body
     margin: 0;
     font-family: sans-serif;
 }
+p,
+a
+{
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
