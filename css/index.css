@@ -21,9 +21,13 @@ a:hover
 {
     text-decoration: none;
 }
-button
+button,
+input
 {
     border-style: none;
+}
+button
+{
     padding: 0;
 }
 input
