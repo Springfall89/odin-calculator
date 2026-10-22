@@ -40,7 +40,7 @@ input
     color: #000000;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     height: 95dvh;
     aspect-ratio: 3 / 5;
     border-radius: 15px;
