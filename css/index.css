@@ -33,8 +33,9 @@ input
     background-color: #ffbd59;
     color: #000000;
     display: flex;
-    justify-content: center;
-    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
     height: 95dvh;
     aspect-ratio: 3 / 5;
     border-radius: 10px;
