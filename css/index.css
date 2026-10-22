@@ -4,6 +4,9 @@ body
     color: #ffffff;
     margin: 0;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 p,
 a
