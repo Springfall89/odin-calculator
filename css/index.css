@@ -7,6 +7,8 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100dvw;
+    height: 100dvh;
 }
 p,
 a
