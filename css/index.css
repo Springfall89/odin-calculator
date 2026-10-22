@@ -81,3 +81,50 @@ input
 {
     outline: none;
 }
+.buttons
+{
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+.button
+{
+    box-sizing: border-box;
+    width: calc((100% - 40px) / 5);
+    aspect-ratio: 1;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ff751f;
+    font-size: clamp(0.5rem, 7vw, 1.5rem);
+    font-weight: 900;
+    text-align: center;
+}
+.button.other
+{
+    background-color: #ff5757;
+    width: calc((100% - 10px) / 2);
+    aspect-ratio: 8 / 3;
+}
+.button.function,
+.button.action,
+.button-other
+{
+    font-size: clamp(0.5rem, 5vw, 1.25rem);
+}
+.button.operation,
+.button.function
+{
+    background-color: #ff914d;
+}
+.button.action
+{
+    background-color: #ffde59;
+}
+#random
+{
+    font-size: clamp(0.5rem, 5vw, 1rem);
+}
