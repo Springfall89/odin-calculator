@@ -21,3 +21,7 @@ button
     border-style: none;
     padding: 0;
 }
+input
+{
+    margin: 0;
+}
