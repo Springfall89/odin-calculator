@@ -83,6 +83,10 @@ input
     font-size: max(0.5rem, 3vw);
     text-align: end;
 }
+.display-main::placeholder
+{
+    color: #000000;
+}
 .displays > *:focus
 {
     outline: none;
