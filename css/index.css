@@ -105,7 +105,6 @@ input
 }
 .button.other
 {
-    background-color: #ff5757;
     width: calc((100% - 10px) / 2);
     aspect-ratio: 8 / 3;
 }
@@ -120,7 +119,8 @@ input
 {
     background-color: #ff914d;
 }
-.button.action
+.button.action,
+.button.other
 {
     background-color: #ffde59;
 }
