@@ -80,11 +80,18 @@ input
     border-radius: 10px;
     padding: 10px;
     width: 100%;
-    max-height: 64px;
-    aspect-ratio: 6 / 1;
+    height: 2em;
     text-align: end;
     font-size: clamp(1rem, 15vw, 3rem);
     font-weight: 900;
+}
+@media screen and (max-height: 800px)
+{
+    .display-main
+    {
+        height: unset;
+        aspect-ratio: 6 / 1;
+    }
 }
 .display-main::placeholder
 {
