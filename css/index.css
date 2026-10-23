@@ -70,6 +70,7 @@ input
     padding-bottom: max(0.3125em, 0.5vw);
     font-size: max(0.5rem, 1.5vw);
     text-align: end;
+    cursor: default;
 }
 .display-main
 {
