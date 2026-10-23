@@ -84,6 +84,7 @@ input
 .buttons
 {
     width: 100%;
+    max-height: 100%;
     margin-top: 16px;
     display: flex;
     flex-wrap: wrap;
@@ -107,10 +108,10 @@ input
 {
     width: calc((100% - 10px) / 2);
     aspect-ratio: 8 / 3;
+    font-size: clamp(0.5rem, 4vw, 1rem);
 }
 .button.function,
-.button.action,
-.button-other
+.button.action
 {
     font-size: clamp(0.5rem, 5vw, 1.25rem);
 }
