@@ -75,6 +75,7 @@ input
     .button
     {
         width: calc((100% - 30px) / 5) !important;
+        border-radius: 7.5px !important;
     }
 }
 .displays
