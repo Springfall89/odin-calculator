@@ -61,6 +61,14 @@ input
         font-size: clamp(0.5rem, 5vw, 1.5rem) !important;
     }
 }
+@media screen and (max-width: 600px), (max-height: 800px)
+{
+    .calculator
+    {
+        padding: min(1em, min(10dvh, 3%));
+        border-radius: 10px;
+    }
+}
 .displays
 {
     display: flex;
@@ -99,14 +107,6 @@ input
 .displays > *:focus
 {
     outline: none;
-}
-@media screen and (max-width: 600px), (max-height: 800px)
-{
-    .calculator
-    {
-        padding: min(1em, min(10dvh, 3%));
-        border-radius: 10px;
-    }
 }
 .buttons
 {
