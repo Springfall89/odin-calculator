@@ -80,7 +80,7 @@ input
     aspect-ratio: 5 / 1;
     padding: 0 max(0.3125em, 1vw);
     border-radius: max(0.3125em, 1vw);
-    font-size: max(0.5rem, 3vw);
+    font-size: max(1em, 6cqb);
     font-weight: 900;
     text-align: end;
 }
