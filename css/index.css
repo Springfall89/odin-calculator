@@ -30,3 +30,14 @@ input
     margin: 0;
     padding: 0;
 }
+.calculator
+{
+    background-color: #ffbd59;
+    color: #000000;
+    box-sizing: border-box;
+    aspect-ratio: 3 / 5;
+    height: 95vh;
+    padding: max(1em, 1.5vw);
+    margin: max(1em, 1.5vw);
+    border-radius: max(0.625em, 1vw);
+}
