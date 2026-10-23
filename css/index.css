@@ -100,7 +100,7 @@ input
 {
     outline: none;
 }
-@media screen and (max-aspect-ratio: 3 / 5) and (max-width: 500px), (max-height: 800px)
+@media screen and (max-width: 600px), (max-height: 800px)
 {
     .calculator
     {
