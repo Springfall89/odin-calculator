@@ -128,7 +128,7 @@ input
 {
     .buttons
     {
-        gap: 7.5px;
+        gap: min(0.46875em, min(3vh, 3%));
     }
     .button
     {
