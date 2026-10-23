@@ -61,3 +61,10 @@ input
     align-items: center;
     width: 100%;
 }
+.display-sub
+{
+    background-color: #ffbd59;
+    width: 100%;
+    aspect-ratio: 20 / 1;
+    font-size: max(0.5rem, 1.5vw);
+}
