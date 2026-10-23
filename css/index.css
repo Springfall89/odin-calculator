@@ -66,9 +66,9 @@ input
     background-color: #ffbd59;
     color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    aspect-ratio: 20 / 1;
+    aspect-ratio: 15 / 1;
     padding-bottom: max(0.3125em, 0.5vw);
-    font-size: max(0.5rem, 1.5vw);
+    font-size: max(0.5rem, 2.5cqb);
     text-align: end;
     cursor: default;
 }
