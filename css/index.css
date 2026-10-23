@@ -100,12 +100,12 @@ input
 {
     outline: none;
 }
-@media screen and (max-width: 350px), (max-height: 500px)
+@media screen and (max-aspect-ratio: 3 / 5) and (max-width: 500px), (max-height: 800px)
 {
     .calculator
     {
-        padding: 10px;
-        border-radius: 10px;
+        padding: min(1em, 3%);
+        border-radius: min(1em, 3%);
     }
 }
 .buttons
