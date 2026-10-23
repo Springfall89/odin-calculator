@@ -51,6 +51,14 @@ input
         height: auto;
     }
 }
+@media screen and (max-aspect-ratio: 2 / 3)
+{
+    .calculator
+    {
+        width: 85%;
+        height: auto;
+    }
+}
 @media screen and (max-height: 650px)
 {
     body
