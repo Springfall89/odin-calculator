@@ -114,13 +114,13 @@ input
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    gap: 7.5px;
+    gap: max(0.46875em, 1vw);
 }
 .button
 {
     background-color: #ff914d;
     aspect-ratio: 1 / 1;
-    width: calc((100% - 30px) / 5);
+    width: calc((100% - (max(0.46875em, 1vw) * 4)) / 5);
     border-radius: clamp(0.3125em, 1vw, 25%);
     cursor: pointer;
 }
