@@ -124,3 +124,7 @@ input
     border-radius: clamp(0.3125em, 1vw, 25%);
     cursor: pointer;
 }
+.button:hover
+{
+    filter: brightness(0.9);
+}
