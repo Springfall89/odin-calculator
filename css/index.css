@@ -79,7 +79,7 @@ input
 }
 .display-sub
 {
-    background-color: #ffbd59;
+    background-color: rgba(0, 0, 0, 0);
     color: rgba(0, 0, 0, 0.5);
     width: 100%;
     aspect-ratio: 15 / 1;
