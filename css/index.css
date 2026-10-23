@@ -87,7 +87,7 @@ input
     width: 100%;
     aspect-ratio: 5 / 1;
     padding: 0 max(0.3125em, 1vw);
-    border-radius: max(0.3125em, 1vw);
+    border-radius: clamp(0.3125em, 1vw, 25%);
     font-size: max(1em, 6cqb);
     font-weight: 900;
     text-align: end;
