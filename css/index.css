@@ -92,6 +92,21 @@ input
 {
     outline: none;
 }
+@media screen and (max-width: 350px), (max-height: 500px)
+{
+    .calculator
+    {
+        padding: 10px;
+    }
+    .display-main
+    {
+        font-size: clamp(0.5rem, 10vw, 2rem);
+    }
+    .display-sub
+    {
+        font-size: clamp(0.5rem, 5vw, 0.75rem);
+    }
+}
 .buttons
 {
     display: flex;
