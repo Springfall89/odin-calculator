@@ -51,7 +51,7 @@ input
         height: auto;
     }
 }
-@media screen and (max-height: 600px)
+@media screen and (max-height: 650px)
 {
     body
     {
