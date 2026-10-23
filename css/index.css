@@ -69,3 +69,14 @@ input
     font-size: max(0.5rem, 1.5vw);
     text-align: end;
 }
+.display-main
+{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 100%;
+    aspect-ratio: 5 / 1;
+    padding: 0 max(0.3125em, 1vw);
+    border-radius: max(0.3125em, 1vw);
+    font-size: max(0.5rem, 3vw);
+    text-align: end;
+}
