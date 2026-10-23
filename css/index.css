@@ -51,6 +51,19 @@ input
         height: auto;
     }
 }
+@media screen and (max-height: 600px)
+{
+    body
+    {
+        align-items: start;
+    }
+    .calculator
+    {
+        margin-top: 32px;
+        width: 60%;
+        height: unset;
+    }
+}
 .display-sub
 {
     background-color: #ffbd59;
