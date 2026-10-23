@@ -81,6 +81,7 @@ input
     padding: 0 max(0.3125em, 1vw);
     border-radius: max(0.3125em, 1vw);
     font-size: max(0.5rem, 3vw);
+    font-weight: 900;
     text-align: end;
 }
 .display-main::placeholder
