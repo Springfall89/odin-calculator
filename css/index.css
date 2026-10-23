@@ -104,8 +104,8 @@ input
 {
     .calculator
     {
-        padding: min(1em, 3%);
-        border-radius: min(1em, 3%);
+        padding: min(1em, min(10dvh, 3%));
+        border-radius: 10px;
     }
 }
 .buttons
