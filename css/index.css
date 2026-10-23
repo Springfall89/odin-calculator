@@ -40,6 +40,9 @@ input
     padding: max(1em, 1.5vw);
     margin: max(1em, 1.5vw);
     border-radius: max(0.625em, 1vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 @media screen and (max-aspect-ratio: 3 / 5)
 {
