@@ -41,3 +41,11 @@ input
     margin: max(1em, 1.5vw);
     border-radius: max(0.625em, 1vw);
 }
+@media screen and (max-aspect-ratio: 3 / 5)
+{
+    .calculator
+    {
+        width: 85%;
+        height: unset;
+    }
+}
