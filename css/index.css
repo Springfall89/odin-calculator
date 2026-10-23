@@ -9,8 +9,8 @@ body
     align-items: center;
     width: 100dvw;
     height: 100dvh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    /* overflow-y: auto;
+    overflow-x: hidden; */
 }
 p,
 a
@@ -68,15 +68,6 @@ input
         padding: clamp(5px, min(3vh, 3%), 1em);
         border-radius: 10px;
     }
-    .buttons
-    {
-        gap: 7.5px !important;
-    }
-    .button
-    {
-        width: calc((100% - 30px) / 5) !important;
-        border-radius: 7.5px !important;
-    }
 }
 .displays
 {
@@ -132,6 +123,18 @@ input
     width: calc((100% - (max(0.46875em, 1vw) * 4)) / 5);
     border-radius: clamp(0.3125em, 1vw, 25%);
     cursor: pointer;
+}
+@media screen and (max-width: 750px), (max-height: 800px)
+{
+    .buttons
+    {
+        gap: 7.5px;
+    }
+    .button
+    {
+        width: calc((100% - 30px) / 5);
+        border-radius: 7.5px;
+    }
 }
 .button:hover
 {
