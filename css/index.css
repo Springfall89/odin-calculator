@@ -82,3 +82,7 @@ input
     font-size: max(0.5rem, 3vw);
     text-align: end;
 }
+.displays > *:focus
+{
+    outline: none;
+}
