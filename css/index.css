@@ -68,6 +68,14 @@ input
         padding: clamp(5px, min(3vh, 3%), 1em);
         border-radius: 10px;
     }
+    .buttons
+    {
+        gap: 7.5px !important;
+    }
+    .button
+    {
+        width: calc((100% - 30px) / 5) !important;
+    }
 }
 .displays
 {
