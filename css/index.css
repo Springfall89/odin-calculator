@@ -144,3 +144,7 @@ input
 {
     filter: brightness(0.9);
 }
+.button.operation
+{
+    background-color: #ff914d;
+}
