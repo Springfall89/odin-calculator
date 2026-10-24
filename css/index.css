@@ -56,7 +56,8 @@ input
     {
         font-size: clamp(0.5rem, 10vw, 3rem) !important;
     }
-    .display-sub
+    .display-sub,
+    .button
     {
         font-size: clamp(0.5rem, 5vw, 1.5rem) !important;
     }
@@ -122,9 +123,10 @@ input
     aspect-ratio: 1 / 1;
     width: calc((100% - (max(0.46875em, 1vw) * 4)) / 5);
     border-radius: clamp(0.3125em, 1vw, 25%);
-    cursor: pointer;
+    font-size: max(1em, 3cqb);
     font-weight: 900;
     text-align: center;
+    cursor: pointer;
 }
 @media screen and (max-width: 750px), (max-height: 800px)
 {
