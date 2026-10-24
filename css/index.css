@@ -132,7 +132,7 @@ input
 {
     .buttons
     {
-        gap: min(0.46875em, min(3vh, 3%));
+        gap: min(0.46875em, min(3vh, 3%)) !important;
     }
     .button
     {
