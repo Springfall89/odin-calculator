@@ -148,6 +148,12 @@ input
 {
     background-color: #ff914d;
 }
+.button.function,
+.button.action,
+.button.other
+{
+    font-size: max(1em, 2.75cqb);
+}
 .button.action,
 .button.other
 {
