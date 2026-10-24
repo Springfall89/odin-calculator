@@ -163,3 +163,8 @@ input
 {
     font-size: max(0.75em, 2.75cqb);
 }
+.button.other
+{
+    width: 100%;
+    aspect-ratio: 6 / 1;
+}
