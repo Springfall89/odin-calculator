@@ -132,11 +132,11 @@ input
 {
     .buttons
     {
-        gap: min(0.46875em, min(3vh, 3%)) !important;
+        gap: min(0.4140625em, min(3vh, 3%)) !important;
     }
     .button
     {
-        width: calc((100% - 30px) / 5);
+        width: calc((100% - 26.5px) / 5);
         border-radius: 7.5px;
     }
 }
