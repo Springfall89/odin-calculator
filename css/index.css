@@ -119,7 +119,7 @@ input
 }
 .button
 {
-    background-color: #ff914d;
+    background-color: #ff751f;
     aspect-ratio: 1 / 1;
     width: calc((100% - (max(0.46875em, 1vw) * 4)) / 5);
     border-radius: clamp(0.3125em, 1vw, 25%);
